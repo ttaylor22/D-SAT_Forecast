@@ -218,7 +218,6 @@ public class CityFragment extends Fragment {
                         //Display panel
                         weather_panel.setVisibility(View.VISIBLE);
                         loading.setVisibility(View.GONE);
-
                     }
                 }, new Consumer<Throwable>() {
                     @Override

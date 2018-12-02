@@ -33,7 +33,7 @@ public class ForecastFragment extends Fragment {
     CompositeDisposable compositeDisposable;
     IOpenWeatherMap nServices;
 
-    WeatherForecastAdapter adapter;//
+    WeatherForecastAdapter adapter;
 
     boolean data = false;
 
